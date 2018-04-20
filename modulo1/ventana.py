@@ -25,8 +25,6 @@ class Ventana(QMainWindow,Keys):
         self.label.show()
 
 
-        # self.label.informacion()
-
     def closeEvent(self,event):
         resultado = QMessageBox.question(self,"salir...","seguro que quieres salir ?", QMessageBox.Yes | QMessageBox.No )
         if resultado == QMessageBox.Yes:

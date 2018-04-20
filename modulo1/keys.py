@@ -18,3 +18,4 @@ class Keys(object):
         for tecla in self.keys.keys():
             if e.key() == ord(tecla):
                 self.keys[tecla]()
+        self.label.informacion()
