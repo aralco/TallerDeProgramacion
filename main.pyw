@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from PyQt5.QtWidgets import QApplication
-from modulo1.ventana import Ventana
+from paquete1.ventana import Ventana
 import sys
 
 

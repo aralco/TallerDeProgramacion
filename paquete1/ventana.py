@@ -16,7 +16,7 @@ class Ventana(QMainWindow,Keys):
         self.setWindowTitle("Robot")
         widthP = pygame.display.Info().current_w
         heightP = pygame.display.Info().current_h
-        uic.loadUi("proyecto.ui",self)
+        uic.loadUi("archivosUi/proyecto.ui",self)
 
         self.setGeometry(0, 0, widthP, heightP)
         self.label = Robot.getInstance(self)
