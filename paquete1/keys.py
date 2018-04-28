@@ -18,4 +18,11 @@ class Keys(object):
         for tecla in self.keys.keys():
             if e.key() == ord(tecla):
                 self.keys[tecla]()
-        self.label.informacion()
+
+    def agregarClickEvent(self,objeto, funcion):
+        objeto.clicked.connect(funcion)
+
+    def obtenerKeyEvent(self, funcion):
+        for c,f in self.keys.items():
+            if f == funcion:
+                return c

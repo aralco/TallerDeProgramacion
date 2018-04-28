@@ -57,6 +57,32 @@ QComboBox{
      </property>
     </item>
    </widget>
+   <widget class="QPushButton" name="grabar">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>grabar !!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reproducir">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reproducir</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

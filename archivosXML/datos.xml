@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<auto>
+  <datos posX="521.6876700471112" posY="268.74385349667534" m="0.46630765815499836" b="25.476897788669476" orientacion="ne" angulo="205.0" ultimoPz="T" ultimoMv="X" rotation="-155"/>
+  <movimiento tiempo="834" movimiento="X" pinza="T"/>
+  <movimiento tiempo="717" movimiento="O" pinza="T"/>
+  <movimiento tiempo="2402" movimiento="A" pinza="T"/>
+  <movimiento tiempo="1343" movimiento="O" pinza="T"/>
+  <movimiento tiempo="1058" movimiento="X" pinza="T"/>
+  <movimiento tiempo="1766" movimiento="X" pinza="R"/>
+  <movimiento tiempo="1273" movimiento="X" pinza="T"/>
+</auto>

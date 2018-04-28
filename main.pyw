@@ -11,13 +11,19 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     rutaImagenes = "imagenes/"
     ventana = Ventana( rutaImagenes)
-    ventana.agregarEvento('W', ventana.label.moverAdelante)
-    ventana.agregarEvento('S', ventana.label.moverAtras)
-    ventana.agregarEvento('D', ventana.label.rotatePos)
-    ventana.agregarEvento('A', ventana.label.rotateNeg)
-    ventana.agregarEvento('Q', ventana.label.circulo)
-    ventana.agregarEvento('R', ventana.label.abrirPinzas)
-    ventana.agregarEvento('T', ventana.label.cerrarPinzas)
+
+    ventana.agregarEvento('O', ventana.label.mvAdelante)
+    ventana.agregarEvento('S', ventana.label.mvAtras)
+    ventana.agregarEvento('D', ventana.label.rtPos)
+    ventana.agregarEvento('A', ventana.label.rtNeg)
+    ventana.agregarEvento('X', ventana.label.mvDetenerse)
+    #ventana.agregarEvento('Q', ventana.label.circulo)
+    ventana.agregarEvento('R', ventana.label.abrirPz)
+    ventana.agregarEvento('T', ventana.label.cerrarPz)
+
+    ventana.agregarClickEvent(ventana.grabar,ventana.veriGrabar)
+    ventana.agregarClickEvent(ventana.reproducir,ventana.reproducirMovimiento)
+
 
     ventana.show()
     app.exec_()
