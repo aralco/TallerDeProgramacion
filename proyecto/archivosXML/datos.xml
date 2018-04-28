@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<auto>
+  <datos posX="813" posY="311.1194370124492" m="-0.809784033195008" b="969.4738559999907" orientacion="no" angulo="321.0" ultimoPz="T" ultimoMv="X" rotation="-39"/>
+  <movimiento tiempo="537" movimiento="X" pinza="T"/>
+  <movimiento tiempo="595" movimiento="A" pinza="T"/>
+  <movimiento tiempo="1494" movimiento="W" pinza="T"/>
+  <movimiento tiempo="3469" movimiento="X" pinza="T"/>
+  <movimiento tiempo="1077" movimiento="X" pinza="R"/>
+</auto>

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-class Keys(object):
+class Eventos(object):
 
     def __init__(self):
         self.keys = {}

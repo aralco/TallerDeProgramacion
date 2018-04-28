@@ -18,4 +18,3 @@ A = girar en sentido horario
 D = girar en sentido anti horario
 R = abrir pinzas
 T = cerrar pinzas
-Q = realizar un circulo (el circulo es antihorario)

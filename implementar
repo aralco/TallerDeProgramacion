@@ -1,26 +1,8 @@
-por orden
-
-definir una funcion que nos devuelve si un el auto esta parado,y que se muestre sobre el atributo
-self.ultimoMV, en el la clase Auto
-
-definir una funcion que escriba el archivo XML, pero con el siguiente formato:
-	movimiento : tiempo
-
-pero que tambien tenga el movimiento detenido,  para eso averiguar lo siguiente:
-
-	QMainWindow.keyReleaseEvent()
-
-vamos a guardar las acciones del robot, por tiempo, osea sus estados, para no tener conflictos con el robot
-
 
 
 al momento de leer o enviar al robot datos, le vamos a enviar en un String que contendra, su accion, mas el tiempo que realizara esa accion
 
-
-
 averiguar sobre servomotores truncados
+implemetar el programa con la libreria millis() de arduino  para manejar mejor los tiempos
 
-millis() 						arduino, segun entendi retorna el tiempo en milisegundos desde que empezo  a funcionar la
-							placa arduino
-
-guardar estados con tiempo
+implemetar el patron de diseño facade, solo dejare el modulo y los nombre de los metodos que vamos a implementar
